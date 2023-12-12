@@ -4,7 +4,7 @@ An easy-to-use to-do list tool that lets you mark and unmark things to indicate 
 
 
 ## View app at
-#### [[Todo-List](https://salonee-jain.github.io/TodoList/)](https://shr3yasg.github.io/TODO-LIST-SKILL-TEST/)
+#### [[Todo-List] (https://shr3yasg.github.io/TODO-LIST-SKILL-TEST/)]
 
 
 <hr />
@@ -12,7 +12,7 @@ An easy-to-use to-do list tool that lets you mark and unmark things to indicate 
 ### Installation Options
 
 ```
-git clone https://github.com/Salonee-Jain/TodoList.git
+git clone https://github.com/Shr3yasG/TODO-LIST-SKILL-TEST.git
 ```
 or
 
