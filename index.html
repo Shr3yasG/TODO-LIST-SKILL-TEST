@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link for external css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link for fontawose -->
+    <script src="https://kit.fontawesome.com/3dce9717da.js" crossorigin="anonymous"></script>
+    <title>TODOLIST-APP</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>TODOLIST</h1>
+            <!-- components such as place holder and add button  -->
+            <div class="task-compo-1">
+                <input type="text" class="add-task" id="add" placeholder="Add your todo" />
+                <button id="add-btn">Add</button>
+            </div>
+            <!-- components task completed and total tasks -->
+            <div class="task-compo-2">
+                <div class="completed-task">
+                    <p>Task Completed: <span id="c-count">0</span></p>
+                </div>
+                <div class="remaining-task">
+                    <p>
+                        <span id="total-tasks">Total Tasks: <span id="tasks-counter">0</span></span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- filter button and delete all button -->
+            <div class="task-compo-3">
+                <div class="dropdown">
+                    <button class="dropbtn">Filter</button>
+                    <div class="dropdown-content">
+                        <a href="#" id="all">All</a>
+                        <a href="#" id="rem">Uncomplete</a>
+                        <a href="#" id="com">Completed</a>
+                    </div>
+                </div>
+
+                <button id="delete-all">Delete all</button>
+            </div>
+
+            <!-- main component list  -->
+
+            <ul id="list">
+                <!-- append from js file -->
+            </ul>
+        </div>
+    </div>
+    <!-- link for external css -->
+    <script src="script.js"></script>
+</body>
+
+</html>
